@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 
 class Counter extends Component {
     state={
-        count: 1
+        count: 0
     };
     render() { 
         return (
@@ -23,7 +23,7 @@ class Counter extends Component {
 
     formatCount (){
         const {count} = this.state;
-        return count === 0 ? 'zero':count;
+        return count === 0 ?<h1>Zero</h1> :count;
     }
 }
  
