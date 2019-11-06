@@ -14,7 +14,7 @@ class Counter extends Component {
                 <br/>
                 <br/>
 
-                <span> {this.formartCount()}</span>
+                <span> {this.formatCount()}</span>
                 <button>Increment</button>
 
         </React.Fragment>
