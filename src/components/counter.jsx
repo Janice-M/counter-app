@@ -3,28 +3,34 @@ import React, { Component } from 'react';
 
 
 class Counter extends Component {
-    state={
+    state = {
         count: 0
     };
-    render() { 
+
+    styles= {
+        fontSize:10,
+        fontWeight:"bold"
+    };
+
+    render() {
         return (
 
-        <React.Fragment >
-                <h1 class='text-center'>  Grey's Shop</h1>
-                <br/>
-                <br/>
-                
-                <span> {this.formatCount()}</span>
-                <button>Increment</button>
+            <React.Fragment >
+                <h1 className='text-center'>  Grey's Shop</h1>
+                <br />
+                <br />
 
-        </React.Fragment>
+                <span style= {this.styles} className="badge badge-primary m-"> 2{this.formatCount()}</span>
+                <button className="btn btn-secondary btn-sm">Increment</button>
+
+            </React.Fragment>
         );
     }
 
-    formatCount (){
-        const {count} = this.state;
-        return count === 0 ? 'Zero' :count;
+    formatCount() {
+        const { count } = this.state;
+        return count === 0 ? 'Zero' : count;
     }
 }
- 
+
 export default Counter;
