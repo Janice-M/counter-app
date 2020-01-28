@@ -19,7 +19,7 @@ class Counter extends Component {
                 <br />
                 <br />
                 <br />
-                <p>this is a full metal alchemist counter shop</p>
+                <p>this is a full metal alchemist
 
                 <span className= {this.getBadgeClasses()}> {this.formatCount()}</span>
                 <button className="btn btn-secondary btn-sm">increment button</button>
