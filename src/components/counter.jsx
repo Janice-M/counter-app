@@ -15,7 +15,7 @@ class Counter extends Component {
 
             <div >
                 <h1 className='text-center'>  Grey's Shop</h1>
-                <p className='text-center'>Get all your needs sorted out here
+                <p className='text-center'>Get all your needs
                 <br />
                 <br />
 
