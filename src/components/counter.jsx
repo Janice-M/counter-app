@@ -15,7 +15,7 @@ class Counter extends Component {
 
             <div >
                 <h1 className='text-center'>  Grey's Shop</h1>
-                <p className='text-center'>To obtain one must lose something of equal value
+                <p className='text-center'>To obtain one must lose something of equal value, that is alchemy's first rule
                 <br />
                 <br />
 
