@@ -18,6 +18,8 @@ class Counter extends Component {
                 <p className='text-center'>To obtain one must lose something of equal value, that is alchemy's first rule </p>
                 <br />
                 <br />
+                <br />
+                
 
                 <span className= {this.getBadgeClasses()}> {this.formatCount()}</span>
                 <button className="btn btn-secondary btn-sm">increment button</button>
