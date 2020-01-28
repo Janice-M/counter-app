@@ -18,7 +18,7 @@ class Counter extends Component {
                 <p className='text-center'>To obtain one must lose something of equal value, that is alchemy's first rule </p>
                 <br />
                 
-                <p>this is a fullmetal alchemist counter app</p> 
+                <p className='text-center'>this is a fullmetal alchemist counter app</p> 
 
                 <br />
                 <br />
